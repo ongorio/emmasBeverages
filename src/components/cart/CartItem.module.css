@@ -1,0 +1,75 @@
+.cart-item{
+    background-color: darkcyan;
+    color:white;
+    box-shadow: 0em 0.5em 0.5em black;
+    width: 100%;
+    padding: 1%;
+    
+    margin-top: 1em;
+}
+
+.flexer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-right{
+    margin-right: 0%;
+    margin-left: auto;
+}
+
+.cart-item-amount{
+    background-color: white;
+    color: black;
+    font-weight: 300;
+    padding: 0.5em;
+    width:fit-content;
+    border: 2px solid black;
+    margin-left: 0.5em;
+    font-weight: 500;
+}
+
+.btn{
+    margin-top: 1em;
+    background-color: transparent;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    margin-left: 1em;
+}
+
+.btn-add{
+    border: 2px solid white;
+    color: white;
+    text-decoration: underline 2px white;
+}
+
+.btn-add:hover{
+    background-color: white;
+    color: darkcyan;
+    text-decoration: underline 2px darkcyan;
+}
+
+.btn-add:active{
+    background-color: transparent;
+    color: white;
+    text-decoration: underline 2px white;
+}
+
+.btn-remove{
+    color: rgb(184, 0, 0);
+    border: 2px solid rgb(184, 0, 0);
+    text-decoration: underline 2px rgb(184, 0, 0);
+}
+
+.btn-remove:hover{
+    background-color: rgb(184, 0, 0);
+    color: darkcyan;
+    text-decoration: underline 2px darkcyan;
+}
+
+.btn-remove:active{
+    color: rgb(184, 0, 0);
+    background-color: transparent;
+    text-decoration: underline 2px rgb(184, 0,0 );
+}

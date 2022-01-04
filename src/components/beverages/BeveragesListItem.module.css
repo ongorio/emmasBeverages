@@ -1,0 +1,35 @@
+.bev-list-item{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.order-actions{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.order-btn{
+    margin-left: auto;
+    margin-right: 0%;
+
+    padding: 2%;
+    background-color: transparent;
+    border: transparent;
+    border: 2px solid darkcyan;
+    text-decoration: underline 2px darkcyan;
+    color: darkcyan;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.order-btn:hover{
+    background-color: darkcyan;
+    color: white;
+    text-decoration: underline 2px white;
+}
+
+.order-btn:active{
+    background-color: transparent;
+    color: darkcyan;
+    text-decoration: underline 2px darkcyan;
+}

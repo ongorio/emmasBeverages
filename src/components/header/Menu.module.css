@@ -1,0 +1,40 @@
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* width: 100%; */
+    /* margin-top: 2rem; */
+}
+
+.menu-title{
+    text-align: center;
+
+}
+
+
+.menu-background{
+    background-color: rgb(116, 248, 248);
+    padding: 1rem;
+}
+
+.menu-item{
+    color:black;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 1rem ;
+}
+
+.menu-item:hover{
+    text-decoration: underline;
+    font-weight:bolder;
+    background-color: black;
+    color: white;
+}
+
+
+.menu .menu-item{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+
+}

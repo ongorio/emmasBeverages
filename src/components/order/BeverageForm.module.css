@@ -1,0 +1,53 @@
+.form-control{
+    box-shadow: 0em 0.5em 0.5em black;
+    padding: 1rem;
+    background-color: darkcyan;
+
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.actions{
+    margin-left: auto;
+    margin-right: 0%;
+}
+
+
+.form-control label{
+    color: white;
+    padding: auto;
+}
+
+.form-control input{
+    padding: 0.5rem;
+    width: 2.5rem;
+}
+
+.actions button{
+    padding: 0.5rem;
+    background-color: transparent;
+    border: transparent;
+    border: 2px solid white;
+    text-decoration: underline 2px white;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+    margin-left: 5px;
+}
+
+.actions button:hover{
+    background-color: white;
+    color: darkcyan;
+    text-decoration: underline 2px darkcyan;
+}
+
+.actions button:active{
+    background-color: transparent;
+    color: white;
+    text-decoration: underline 2px white;
+}
